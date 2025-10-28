@@ -167,7 +167,7 @@ with st.expander("how this works"):
 
 st.markdown("---")
 st.caption(
-    "Built using Streamlit | scikit-learn • nmf • nearestneighbors |"
+    "Built using Streamlit | scikit-learn • nmf • nearestneighbors | "
     "[View source on GitHub](https://github.com/amrutha2912/spotify-hybrid-recommender)"
 )
 
