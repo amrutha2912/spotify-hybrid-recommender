@@ -165,10 +165,9 @@ with st.expander("how this works"):
         "- **hybrid**: `score = α * content + (1-α) * collab`"
     )
 
-st.caption("built with streamlit • scikit-learn • nmf • nearestneighbors")
 st.markdown("---")
 st.caption(
-    "Built using Streamlit | "
+    "Built using Streamlit | scikit-learn • nmf • nearestneighbors |"
     "[View source on GitHub](https://github.com/amrutha2912/spotify-hybrid-recommender)"
 )
 
