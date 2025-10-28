@@ -6,6 +6,24 @@ from sklearn.neighbors import NearestNeighbors
 from sklearn.decomposition import NMF
 import streamlit as st
 
+st.title("🎧 Spotify Hybrid Music Recommender System")
+
+st.markdown("""
+Welcome to the **Spotify Hybrid Music Recommender**!  
+This app suggests songs based on both:
+- 🎵 *Content-based filtering* (audio features like energy, tempo, danceability)
+- 👥 *Collaborative filtering* (simulated user listening patterns)
+
+Use the sidebar to:
+- Enter a song name  
+- Adjust the **α slider** to balance content vs collaborative influence  
+- Pick a simulated user profile  
+- Set how many recommendations you want (Top-K)
+
+---
+""")
+
+
 # -------------------------------
 # config
 # -------------------------------
@@ -148,4 +166,10 @@ with st.expander("how this works"):
     )
 
 st.caption("built with streamlit • scikit-learn • nmf • nearestneighbors")
+st.markdown("---")
+st.caption(
+    "Built using Streamlit | "
+    "[View source on GitHub](https://github.com/amrutha2912/spotify-hybrid-recommender)"
+)
+
 
