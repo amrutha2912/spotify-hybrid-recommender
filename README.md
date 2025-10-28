@@ -31,10 +31,10 @@ This project combines two popular recommendation techniques:
 
 ## Features
 
-✅ Enter any song title and get top-K similar recommendations  
-✅ Adjust the weight between **content** and **collaborative** influence  
-✅ Explore simulated user profiles  
-✅ Fast, memory-efficient model (no giant similarity matrix)  
-✅ Built-in UI with Streamlit for easy exploration  
+ Enter any song title and get top-K similar recommendations  
+ Adjust the weight between **content** and **collaborative** influence  
+ Explore simulated user profiles  
+ Fast, memory-efficient model (no giant similarity matrix)  
+ Built-in UI with Streamlit for easy exploration  
 
 
